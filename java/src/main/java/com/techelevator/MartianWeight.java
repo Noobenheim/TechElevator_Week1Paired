@@ -33,7 +33,7 @@ public class MartianWeight {
 		for( int i=0; i < allWeights.length; i++ ) {
 			double earthWeight = Double.parseDouble(allWeights[i]);
 			double marsWeight = earthToMarsWeight(earthWeight);
-			System.out.println(allWeights[i]+" lbs. on Earth, is "+(int)marsWeight+" lbs. on Mars.");
+			System.out.println(allWeights[i]+" lbs. on Earth, is "+marsWeight+" lbs. on Mars.");
 		}
 	}
 
